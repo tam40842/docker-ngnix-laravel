@@ -1,3 +1,8 @@
+
+
+
+How to reader source right?
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +69,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+## How to reader source right?
+
+core: như cái tên, đây là thư mục chứa bộ core của bên mình.
+
+packages: được cài đặt thông qua composer theo kiểu path, trỏ thẳng tới thư mục chứa source thay vì sử dụng qua packagist.org (https://getcomposer.org/doc/05-repositories.
+md#path). Những modules này không thể bật/tắt hay xoá bỏ trong admin panel nhưng có thể xoá bằng cách xoá trong composer.json và chạy composer update.
+
+plugins: đây là những plugins do team mình hoặc người dùng phát triển, những plugins là những module cộng thêm để hoàn chỉnh ứng dụng, những plugin này có thể tắt hoặc xoá bỏ dễ dàng từ trong admin panel.
+
+themes: đây là nơi chứa các themes do người dùng phát triển. Các theme cũng có thể được kích hoạt/huỷ kích hoạt hay xoá bỏ từ admin panel.
