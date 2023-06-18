@@ -168,8 +168,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Botble\Demo\Providers\DemoServiceProvider::class
-        // platform\core\demo\src\Providers\DemoServiceProvider::class
+        // Botble\Demo\Providers\DemoServiceProvider::class
     ])->toArray(),
 
     /*

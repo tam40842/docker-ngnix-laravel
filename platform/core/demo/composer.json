@@ -1,0 +1,26 @@
+{
+    "name": "botble/demo",
+    "description": "A package demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tam40842",
+            "email": "pqtam40842@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Botble\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Botble\\Demo\\Providers\\DemoServiceProvider"
+            ]
+        }
+    }
+}

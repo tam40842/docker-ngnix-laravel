@@ -4,8 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2d6ac2d2899774e62a25f0cd32d0dce",
+    "content-hash": "f07761d8cb7eeca457ad1c2e12c455e4",
     "packages": [
+        {
+            "name": "botble/demo",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./platform/core/demo",
+                "reference": "d15ab040cb99bb93d31b18fa65c3cd8704ec185b"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Botble\\Demo\\Providers\\DemoServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Botble\\Demo\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tam40842",
+                    "email": "pqtam40842@gmail.com"
+                }
+            ],
+            "description": "A package demo",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
@@ -7934,7 +7969,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "botble/demo": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
