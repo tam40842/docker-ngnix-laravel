@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories;
+namespace Botble\Demo\Repository;
 
 use App\Repositories\RepositoryInterface;
 

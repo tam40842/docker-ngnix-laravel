@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Repositories\Post;
+namespace Botble\Demo\Repository\Product;
 
-use App\Repositories\BaseRepository;
+use Botble\Demo\Repository\BaseRepository;
+use Botble\Demo\Repository\Product\ProductRepositoryInterface;
 
 class ProductRepository extends BaseRepository implements ProductRepositoryInterface
 {

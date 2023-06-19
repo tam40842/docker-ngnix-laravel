@@ -12,8 +12,7 @@ class DemoController extends Controller
      */
     public function getIndex()
     {
-        return view('botble-demo::index');
-        Demo::create(['name' => 'Demo ' . time()]);
+        // Demo::create(['name' => 'Demo ' . time()]);
         return view('botble-demo::index');
     }
 }
