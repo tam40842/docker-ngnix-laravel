@@ -4,7 +4,7 @@ namespace Botble\Demo\Repository;
 
 use App\Repositories\RepositoryInterface;
 
-abstract class BaseRepository implements RepositoryInterface
+abstract class BaseRepository
 {
     //model muốn tương tác
     protected $model;

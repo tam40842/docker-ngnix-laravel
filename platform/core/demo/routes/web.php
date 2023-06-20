@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('botble-demo::index');
 // });
 
-Route::group(['namespace' => 'Botble\Demo\Http\Controllers'], function () {
-    Route::get('/demo', 'DemoController@getIndex');
-});
+// Route::group(['namespace' => 'Botble\Demo\Http\Controllers'], function () {
+//     Route::get('/demo', 'DemoController@getIndex');
+// });
+
+Route::view('/', "app::app");
